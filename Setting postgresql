@@ -1,0 +1,2 @@
+#run postgres image with name some-postgres, password 123, in background mode
+docker run --name some-postgres -e POSTGRES_PASSWORD=123 -d postgres
