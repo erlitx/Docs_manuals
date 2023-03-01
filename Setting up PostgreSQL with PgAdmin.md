@@ -1,3 +1,5 @@
+## How to start PostgreSQL from DockerHub and connect to it via PgAdmin
+
 ### Run postgres image with name some-postgres, password 123, in background mode
 		$ docker run --name some-postgres -e POSTGRES_PASSWORD=123 -d postgres
 				or
